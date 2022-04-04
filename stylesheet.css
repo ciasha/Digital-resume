@@ -2,10 +2,12 @@ body{
   font-family: sans-serif;
   font: size 100%;
   background-color: #e7e4e4;
+  text-align: match-parent;
 }
 
 header {
   text-align: center;
+  background-color: lightblue;
 }
 
 footer {
@@ -14,17 +16,22 @@ footer {
 }
 
 body{
-  font-size: 15px;
-  margin: 10px;
-  padding: 40px;
+  border: 20px;
   border-style: inset;
   border-color: rgb(53, 53, 241);
 }
 #profilephoto{
-  width: 10%;
-  height: 10%;
-  border-radius: 30%;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
   border: 3px solid black;
 
 }
-
+#sidebar{
+  width: 20%;
+  height: 40%;
+  background-color: aquamarine;
+} 
+#navlist{ 
+  list-style-type:lower-alpha
+}
