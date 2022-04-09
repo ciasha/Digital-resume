@@ -35,3 +35,8 @@ body{
 #navlist{ 
   list-style-type:lower-alpha
 }
+#icons{
+  width: 3rem;
+  margin: 0.5rem;
+  height: auto
+}
