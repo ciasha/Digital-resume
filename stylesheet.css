@@ -2,7 +2,8 @@ body{
   font-family: sans-serif;
   font: size 100%;
   background-color: #e7e4e4;
-  text-align: match-parent;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
